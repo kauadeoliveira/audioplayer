@@ -300,6 +300,7 @@ div#iconPlayer{
     align-items: center;
     height: 100%;
     width: 100%;
+    cursor: default;
 }
 
 #iconPlayer #iconAlbumPlayerContainer{
