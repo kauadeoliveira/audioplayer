@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link id="linkcss" rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div id="container">
+        <nav class="nav" id="playlist">
+            <div id="logo">
+                <img src="assets/images/icons8-music-heart-96.png"alt=""> iMusic
+            </div>
+            <div id="home" class="navItem">
+                <img src="assets/images/icons8-casa-96.png" alt="">Home
+            </div>
+            <div id="search" class="navItem">
+                <img src="assets/images/icons8-pesquisar-100.png" alt=""> Search
+            </div>
+
+            <div id="friendList" class="navItem">
+                <img src="assets/images/icons8-usuário-90.png"  alt=""> Amigos
+            </div>
+            <div id="stats" class="navItem">
+                <img src="assets/images/icons8-gráfico-de-barras-96.png" alt=""> Estatisticas
+            </div>
+            <div id="config" class="navItem">
+                <img src="assets/images/icons8-configurações-100.png" alt=""> Configurações
+            </div>
+
+            <div class="linhaHr"></div>
+
+            <div id="playlistItem" class="navItem">
+                <img src="assets/images/icons8-itunes-note-96.png" alt=""> Suas musicas
+            </div>
+            <div id="podcast" class="navItem">
+                <img src="assets/images/icons8-microfone-96.png" alt=""> Podcasts
+            </div>
+            <div id="albuns" class="navItem">
+                <img src="assets/images/icons8-álbuns-96.png" alt=""> Albuns Favoritos
+            </div>
+
+        </nav>
+
+        <main>
+                <audio src="assets/audio/hurricane.mp3"></audio>
+            <div id="header">
+                <div id="playlistIcon">
+                    <img src="assets/images/pantera.jpg" alt="">
+                    <div id="playlistName">
+                        <h2>FAVORITAS.</h2>
+                    </div>
+                </div>
+                <ul id="navHeader">
+                    <li>Titulo</li>
+                    <li>Artista</li>
+                    <li>Album</li>
+                    <li>Time</li>
+                </ul>
+                <div class="linhaHr"></div>
+            </div>
+
+            <div id="playlist">
+                <div id="music1" class="musicItem" onclick="idMusic(1)">
+                    <p>1</p>
+                    <div class="albumIcon"></div>
+                    <div id="desc1" class="desc">
+                        <p>Hurricane</p>
+                        <p>Kanye West</p>
+                        <p>Donda</p>
+                        <p class="pTime">04:03</p>
+                    </div>
+                </div>
+
+                <div id="music2" class="musicItem" onclick="idMusic(2)">
+                    <p>2</p>
+                    <div class="albumIcon">
+                    </div>
+                    <div id="desc2" class="desc">
+                        <p>Praise God</p>
+                        <p>Kanye West</p>
+                        <p>Donda</p>
+                        <p class="pTime">03:46</p>
+                    </div>
+                </div>
+
+                <div id="music3" class="musicItem" onclick="idMusic(3)">
+                    <p>3</p>
+                    <div class="albumIcon">
+                        <img src="assets/images/thelifeofpablo.png" alt="">
+                    </div>
+                    <div id="desc3" class="desc">
+                        <p>Father Stretch My Hands Pt.1</p>
+                        <p>Kanye West</p>
+                        <p>The Life of Pablo</p>
+                        <p class="pTime">02:15</p>
+                    </div>
+                </div>
+
+                <div id="music4" class="musicItem" onclick="idMusic(4)">
+                    <p>4</p>
+                    <div class="albumIcon">
+                        <img src="assets/images/planether.jpg" alt="">
+                    </div>
+                    <div id="desc4" class="desc">
+                        <p>Payday</p>
+                        <p>Doja Cat, Young Thug</p>
+                        <p>Planet Her(Deluxe)</p>
+                        <p class="pTime">03:33</p>
+                    </div>
+                </div>
+
+                <div id="music5" class="musicItem" onclick="idMusic(5)">
+                    <p>5</p>
+                    <div class="albumIcon">
+                        <img src="assets/images/praisethelordjpg.jpg" alt="">
+                    </div>
+                    <div id="desc5" class="desc">
+                        <p>Praise The Lord</p>
+                        <p>A$AP Rocky</p>
+                        <p>TESTING</p>
+                        <p class="pTime">03:26</p>
+                    </div>
+                </div>
+
+                <div id="music6" class="musicItem" onclick="idMusic(6)">
+                    <p>6</p>
+                    <div class="albumIcon">
+                        <img src="assets/images/lil-baby-woah.jpg" alt="">
+                    </div>
+                    <div id="desc6" class="desc">
+                        <p>Woah</p>
+                        <p>Lil Baby</p>
+                        <p>Woah</p>
+                        <p class="pTime">03:03</p>
+                    </div>
+                </div>
+
+                <div id="music7" class="musicItem" onclick="idMusic(7)">
+                    <p>7</p>
+                    <div class="albumIcon">
+                        <img src="assets/images/dripharder.jpg" alt="">
+                    </div>
+                    <div id="desc7" class="desc">
+                        <p>Drip Too Hard</p>
+                        <p>Lil Baby, Gunna</p>
+                        <p>Drip Harder</p>
+                        <p class="pTime">02:25</p>
+                    </div>
+                </div>
+
+                <div id="music8" class="musicItem" onclick="idMusic(8)">
+                    <p>8</p>
+                    <div class="albumIcon">
+                        <img src="assets/images/mbdtf.jpg" alt="">
+                    </div>
+                    <div id="desc8" class="desc">
+                        <p>Dark Fantasy</p>
+                        <p>Kanye West</p>
+                        <p>My Beatiful Dark Twisted Fantasy</p>
+                        <p class="pTime">04:41</p>
+                    </div>
+                </div>
+
+                <div id="music9" class="musicItem" onclick="idMusic(9)">
+                    <p>9</p>
+                    <div class="albumIcon">
+                        <img src="assets/images/astroworld.jpg" alt="">
+                    </div>
+                    <div id="desc9" class="desc">
+                        <p>CAN'T SAY</p>
+                        <p>Travis Scott</p>
+                        <p>ASTROWORLD</p>
+                        <p class="pTime">03:20</p>
+                    </div>
+                </div>
+
+                <div id="music10" class="musicItem" onclick="idMusic(10)">
+                    <p>10</p>
+                    <div class="albumIcon">
+                        <img src="assets/images/NOT ALL HEROES WEAR CAPES.jpg" alt="">
+                    </div>
+                    <div id="desc10" class="desc">
+                        <p>Space Cadet</p>
+                        <p>Metro Boomin, Gunna</p>
+                        <p>NOT ALL HEROES WEAR CAPES</p>
+                        <p class="pTime">03:23</p>
+                    </div>
+                </div>
+
+                <div id="music11" class="musicItem" onclick="idMusic(11)">
+                    <p>11</p>
+                    <div class="albumIcon">
+                        <img src="assets/images/Virgo World.jpg" alt="">
+                    </div>
+                    <div id="desc11" class="desc">
+                        <p>Last Call</p>
+                        <p>Lil Tecca</p>
+                        <p>Virgo World</p>
+                        <p class="pTime">02:38</p>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    
+        <div id="containerPlayer">
+
+
+
+            <div id="buttons">
+                <div id="buttonsMedia">
+                    <img class="buttonPlayer" src="assets/images/icons8-skip-to-start-96.png" alt="" onclick="backTrack()">
+                    <img id="buttonPlayPause" class="buttonPlayer" src="assets/images/play-button.png" alt="" onclick="playPause()">
+                    <img class="buttonPlayer" src="assets/images/icons8-end-96.png" alt="" onclick="skipTrack()">
+                </div>
+                
+                <div class="progress-bar">
+                    <p id="current"></p>
+                    <input id="progressMusic" type="range" value="0" step="0.1" onchange="timerMusic()">
+                    <p id="end"></p>
+                </div>
+            </div>
+
+            <div id="settings">
+                    <img id="repeat" class="buttonSettings" src="assets/images/repetir.png" alt="Repetir Faixa" onclick="repita()">
+                <div class="acBox">
+                        <img class="buttonSettings" src="assets/images/icons8-adicionar-60.png" alt="Aumentar Velocidade" onclick="aumentar()">
+                        <img class="buttonSettings" src="assets/images/icons8-menos-60.png" alt="Diminuir Velocidade" onclick="diminuir()">
+                </div>
+                    <div class="sliderContainer">
+                        <img id="volButton" class="buttonSettings" src="assets/images/vol-medio.png" alt="Controlar Volume" onclick="mutar()">
+                        <input id="volRange" type="range" min="1" max="100" step="1"
+                        onmousemove="vol()">
+                    </div>
+            </div>
+
+            <div id="iconPlayer">
+                <div id="iconAlbumPlayerContainer">
+                    <img id="iconAlbumPlayer" src="assets/images/donda.jpg">
+                </div>
+                <div id="artistContainer">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="assets/script/main.js"></script>
+</body>
+</html>
